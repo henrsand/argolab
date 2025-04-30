@@ -1,0 +1,12 @@
+apiVersion: tekton.dev/v1
+kind: Task
+metadata:
+  name: echo-task
+  namespace: tekton-tasks
+spec:
+  steps:
+    - name: echo
+      image: alpine
+      script: |
+        #! /bin/sh
+        echo "Hello from echo-task"
