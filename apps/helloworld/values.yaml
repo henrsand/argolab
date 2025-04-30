@@ -3,7 +3,7 @@ replicaCount: 1
 image:
   repository: henrsand/app-for-argo
   pullPolicy: IfNotPresent
-  tag: "latest"
+  tag: "v20250430232434"
 
 service:
   type: ClusterIP
