@@ -9,8 +9,10 @@
         "typescript": true,
         "html": false
     },
-    "yaml.schemas": {
-        "https://raw.githubusercontent.com/erda-project/erda/master/.erda/schemas/pipeline.yaml.json": "file:///home/henrik/argocd/tasks/echo-task.yaml",
-        "https://json.schemastore.org/helmfile.json": "file:///home/henrik/argocd/apps/helloworld/templates/deployment.yaml"
+    "[yaml]": {
+        "editor.formatOnSave": false
+    },
+    "[helm]": {
+        "editor.formatOnSave": false
     }
 }
