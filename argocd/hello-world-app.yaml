@@ -7,7 +7,7 @@ spec:
   project: default
   source:
     repoURL: https://github.com/henrsand/argolab
-    revision: main
+    targetRevision: main
     path: apps/helloworld
     helm:
       valueFiles:
